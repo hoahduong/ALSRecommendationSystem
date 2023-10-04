@@ -1,15 +1,4 @@
-# DSGA1004 - BIG DATA
-## Final project
-
-# Overview
-
-In the final project, you will apply the tools you have learned in this class to solve a realistic, large-scale applied problem.
-Specifically, you will build and evaluate a collaborative-filter based recommender system. 
-
-In either case, you are encouraged to work in **groups of up to 3 students**:
-
-- Groups of 1--2 will need to implement one extension (described below) over the baseline project for full credit.
-- Groups of 3 will need to implement two extensions for full credit.
+This project explores users’ listening history to build a collaborative-filtering song recommendation system. First, a popularity model is built as a baseline using two methods of determining popularity. Then, a Latent Factor Model is built using the Alternating Least Square (ALS) algorithm provided in Spark’s library. Additionally, a single-machine approach using LightFM is implemented for comparison.
 
 ## The data set
 
